@@ -1,5 +1,5 @@
 import { useState, useRef, useEffect } from "react";
-import { Sparkles, Send, X, HelpCircle, Lightbulb } from "lucide-react";
+import { Sparkles, Send, X, CircleHelp as HelpCircle, Lightbulb } from "lucide-react";
 import { askHelpAssistant, type HelpChatMessage } from "./helpChatClient";
 
 interface HelpPanelProps {

@@ -1,5 +1,5 @@
 import { useState, useRef, useEffect } from "react";
-import { Sparkles, Play, ArrowRight, Zap, Code2, Rocket } from "lucide-react";
+import { Sparkles, Play, ArrowRight, Zap, Code as Code2, Rocket } from "lucide-react";
 
 const VIDEO_SRC = "/videos/AI_website_builder_advertisement…_20261002145710.mp4";
 

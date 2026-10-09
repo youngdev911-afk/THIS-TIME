@@ -1,11 +1,5 @@
 import { useState, useEffect, useRef, useMemo, useCallback } from "react";
-import {
-  Sparkles, Monitor, Tablet, Smartphone, RefreshCw, ExternalLink, Code2, Settings,
-  History, Plus, Trash2, Send, Check, Globe, Smartphone as DevicePhone, KeyRound,
-  Search, ChevronDown, ChevronRight, Terminal, Download, Rocket, Flame, X, Clock3,
-  PanelLeftClose, PanelLeft, MoreHorizontal, Copy, WandSparkles, ShieldCheck, Zap,
-  HelpCircle,
-} from "lucide-react";
+import { Sparkles, Monitor, Tablet, Smartphone, RefreshCw, ExternalLink, Code as Code2, Settings, History, Plus, Trash2, Send, Check, Globe, Smartphone as DevicePhone, KeyRound, Search, ChevronDown, ChevronRight, Terminal, Download, Rocket, Flame, X, Clock3, PanelLeftClose, PanelLeft, MoveHorizontal as MoreHorizontal, Copy, WandSparkles, ShieldCheck, Zap, CircleHelp as HelpCircle } from "lucide-react";
 import type { Project, ChatMessage, Snapshot, Theme, PreviewDevice, ViewType, ProjectType, ProjectFiles, GeminiResponse } from "./types";
 import { STARTER_TEMPLATES, createBlankFiles } from "./templates";
 import { generateAppWithGemini } from "./geminiClient";

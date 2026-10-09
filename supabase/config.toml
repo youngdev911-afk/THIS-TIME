@@ -1,0 +1,8 @@
+[functions.save-api-key]
+verify_jwt = false
+
+[functions.generate-app]
+verify_jwt = false
+
+[functions.help-chat]
+verify_jwt = false
